@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DayFinancyActivityPickDate"
+        android:text="escolha uma data"
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DayFinancyActivityCurrentDate"
+        android:text="Data: "
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DayFinancyActivityRotaryTotal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total Vagas Rotativo: "/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DayFinancyActivityRentingTotal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total Aluguéis: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/DayFinancyActivityTotalGeneral"
+        android:text="Faturamento Diário Total: "/>
+
+
+</LinearLayout>

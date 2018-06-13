@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Car Parking Manager</string>
+
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Fecher navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="action_search">Pesquisar</string>
+
+    <string name="title_activity_parking_work_flow">Work Flow Activity</string>
+    <string name="vacancy">VAGA: </string>
+
+    <string name="insert_license_plate">Insira a Placa: </string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="_private">PRIVADA</string>
+    <string name="rotary">ROTATIVA</string>
+    <string name="entry">Entrada: </string>
+    <string name="exit">Saída: </string>
+    <string name="vehicle">Veículo</string>
+    <string name="available">Disponível</string>
+    <string name="unavailable">Indisponível</string>
+    <string name="owner">Propietário</string>
+    <string name="private_total">Total Mensal: </string>
+    <string name="rotary_total">Total Rotativo: </string>
+    <string name="total_general">Total Geral: </string>
+    <string name="state">Estado: </string>
+    <string name="current_perfil">Perfil atual: </string>
+    <string name="current_tax">Taxa atual: </string>
+
+
+    <string name="entry_register_dialog_title">Registrar Entrada</string>
+    <string name="exit_register_dialog_title">Registrar Saída</string>
+    <string name="day">Dia</string>
+    <string name="hour">h</string>
+    <string name="minutes">min</string>
+
+    <string-array name="perfil_settings_activity_options">
+        <item>Criar Perfil</item>
+        <item>Selecionar Perfil</item>
+        <item>Atualizar Perfil</item>
+    </string-array>
+
+    <string-array name="client_settings_activity_options">
+        <item>Cadastrar Cliente</item>
+        <item>Editar Cliente</item>
+        <item>Deletar Cliente</item>
+    </string-array>
+
+    <string name="create_new_perfil">Criar Perfil</string>
+    <string name="option_change_vacancy_type">Mudar Tipo</string>
+    <string name="option_vacancy_details">Visualizar Detalhes</string>
+    <string name="active_perfil">Ativar Perfil</string>
+
+    <!--- TOAST STRINGS -->
+    <string name="toast_invalid_input_data">Dados inválidos</string>
+    <string name="toast_perfil_updated">Perfil Atualizado</string>
+
+    <!-- Vacancy context Menu options-->
+    <string name="option_change_vacancy">Alterar Vaga</string>
+    <string name="option_show_vacancy_details">Detalhes</string>
+    <string name="option_remove_vacancy">Remover</string>
+
+    <!-- ClientRegisterDialog-->
+    <string name="client_register_dialog_title">Cadastrar Cliente</string>
+    <string name="hint_client_name">Nome do cliente...</string>
+    <string name="client_added">Cliente cadastrado!</string>
+
+    <string name="client_not_added">Cliente não registrado!</string>
+
+    <!-- Drawer MEnu options-->
+    <string name="drawer_menu_change_perfil">Trocar Perfil</string>
+    <string name="drawer_menu_new_client">Cadastrar Client</string>
+    <string name="drawer_menu_show_total_balance">Renda Total</string>
+    <string name="drawer_menu_new_tax">Criar Taxa</string>
+    <string name="drawer_menu_select_tax_rule">Selecionar Taxa</string>
+
+    <!-- Create tax dialog-->
+    <string name="dialog_create_new_tax_name">Name:</string>
+    <string name="dialog_create_new_tax_value_until_1h">Valor até 1H:</string>
+    <string name="dialog_create_new_tax_value_from_1h_to_4h">Valor de 1h até 4h:</string>
+    <string name="dialog_create_new_tax_value_from_4h_to_8h">Valor de 4h até 8h: </string>
+    <string name="dialog_create_new_tax_value_after_8h">Valor após 8h: </string>
+
+
+    <string name="until_1h">Até 1 hora:</string>
+    <string name="from_1h_to_4h">De 1h até 4h:</string>
+    <string name="from_4h_to_8h">De 4h até 8h: </string>
+    <string name="after_8h">Após 8h: </string>
+
+</resources>

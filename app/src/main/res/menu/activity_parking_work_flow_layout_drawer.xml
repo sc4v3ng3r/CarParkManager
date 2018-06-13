@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Workflow">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_perfil_change"
+                android:icon="@drawable/icons_change_perfil"
+                android:title="@string/drawer_menu_change_perfil" />
+            <item
+                android:id="@+id/nav_new_client"
+                android:icon="@drawable/icons_new_client"
+                android:title="@string/drawer_menu_new_client" />
+        </group>
+    </item>
+
+    <item android:title="Financeiro">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_new_tax"
+                    android:icon="@drawable/icons_create_new_taxe"
+                    android:title="@string/drawer_menu_new_tax" />
+
+                <item
+                    android:id="@+id/nav_select_tax"
+                    android:icon="@drawable/icons_select_taxes"
+                    android:title="@string/drawer_menu_select_tax_rule" />
+
+                <item
+                    android:id="@+id/nav_show_tax"
+                    android:icon="@drawable/icons_show_taxes"
+                    android:title="Detalhes Taxas" />
+
+
+                <item
+                    android:id="@+id/nav_total_balance"
+                    android:icon="@drawable/icons_money_bag_50"
+                    android:title="@string/drawer_menu_show_total_balance" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

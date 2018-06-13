@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Car Parking Manager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_parking_work_flow">ParkingWorkFlowActivity</string>
+
+    <string name="vacancy">Vacancy: </string>
+    <string name="insert_license_plate">License Plate: </string>
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="_private">| PRIVATE |</string>
+    <string name="rotary">| ROTARY |</string>
+    <string name="entry">Entry: </string>
+    <string name="exit">Exit: </string>
+    <string name="vehicle">Vehicle</string>
+    <string name="available">Available</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="owner">Owner</string>
+    <string name="private_total">Total Private: </string>
+    <string name="rotary_total">Total Rotary: </string>
+    <string name="total_general">Total: </string>
+    <string name="state">State: </string>
+    <string name="current_perfil">Current Perfil: </string>
+    <string name="current_tax">Current Tax: </string>
+
+    <string name="entry_register_dialog_title">Register Entry</string>
+    <string name="exit_register_dialog_title">Register Exit</string>
+
+    <string name="create_perfil">Create Perfil</string>
+    <string name="update_perfil">Update Perfil</string>
+    <string name="remove_perfil">Delete/ Perfil</string>
+
+    <string name="new_client">New Client</string>
+    <string name="update_client">Edit Client</string>
+    <string name="remove_client">Delete Client</string>
+    <string name="day">Day</string>
+    <string name="hour">h</string>
+    <string name="minutes">min</string>
+
+    <!-- Options PerfilSettignsActivity-->
+    <string-array name="perfil_settings_activity_options">
+        <item>Create Perfil</item>
+        <item>Select Perfil</item>
+        <item>Update Perfil</item>
+    </string-array>
+
+    <!-- Options ClientSettignsActivity-->
+    <string-array name="client_settings_activity_options">
+        <item>Add Client</item>
+        <item>Update Client</item>
+        <item>Remove Client</item>
+    </string-array>
+
+    <string name="create_new_perfil">Create Perfil</string>
+
+    <string name="option_change_vacancy_type">Change type</string>
+    <string name="option_vacancy_details">Show details</string>
+    <string name="active_perfil">Active Perfil</string>
+
+    <!--- TOAST STRINGS -->
+    <string name="toast_invalid_input_data">Invalid data input</string>
+    <string name="toast_perfil_updated">Perfil Updated</string>
+
+    <!-- Vacancy context Menu options-->
+    <string name="option_change_vacancy">Change Vacancy</string>
+    <string name="option_show_vacancy_details">Show Details</string>
+    <string name="option_remove_vacancy">Remove vacancy</string>
+
+
+    <!-- ClientRegisterDialog-->
+    <string name="client_register_dialog_title">New Client</string>
+    <string name="hint_client_name">Client name...</string>
+    <string name="client_added">Client registred</string>
+    <string name="client_not_added">Client not registred</string>
+
+    <!-- Drawer MEnu options-->
+    <string name="drawer_menu_change_perfil">Change Perfil</string>
+    <string name="drawer_menu_new_client">New Client</string>
+    <string name="drawer_menu_show_total_balance">Show Total Balance</string>
+
+    <string name="drawer_menu_new_tax">New Taxes Rules</string>
+    <string name="drawer_menu_select_tax_rule">Select Tax Rule</string>
+
+    <!-- Create tax dialog-->
+    <string name="dialog_create_new_tax_name">Name:</string>
+    <string name="dialog_create_new_tax_value_until_1h">Value until 1H:</string>
+    <string name="dialog_create_new_tax_value_from_1h_to_4h">Value from 1h to 4h:</string>
+    <string name="dialog_create_new_tax_value_from_4h_to_8h">Value from 4h to 8h: </string>
+    <string name="dialog_create_new_tax_value_after_8h">Value after 8h: </string>
+
+    <string name="until_1h">Value until 1H:</string>
+    <string name="from_1h_to_4h">Value from 1h to 4h:</string>
+    <string name="from_4h_to_8h">Value from 4h to 8h: </string>
+    <string name="after_8h">Value after 8h: </string>
+</resources>
